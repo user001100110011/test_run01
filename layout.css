@@ -1,0 +1,24 @@
+h1{
+    text-align:center;
+    font-size:50px;
+    font-family: serif;
+}
+p{
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.b{
+    font-size: 24px;
+    font-family: serif;
+}
+h3{
+    display:none;
+    font-family: serif;
+    text-align:center;
+}
+input[type="checkbox"]:checked + h3{
+    display:block;
+}
+#check{
+    display:none;
+}
